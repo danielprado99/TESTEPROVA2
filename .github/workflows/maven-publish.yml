@@ -1,8 +1,9 @@
+#oi
 name: Maven Package
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
