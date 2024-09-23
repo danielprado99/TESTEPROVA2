@@ -72,7 +72,7 @@ public class EventoService {
     /**
      * Método para verificar a existência de um usuário via API externa.
      */
-    private boolean verificarUsuario(String cpf) {
+    boolean verificarUsuario(String cpf) {
         try {
             // Faz uma requisição HTTP GET para verificar se o usuário existe
             String url = API_USUARIO_URL + cpf;

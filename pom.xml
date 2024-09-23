@@ -92,7 +92,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.8</version> <!-- Verifique a versão mais recente -->
+				<version>0.8.10</version> <!-- Verifique a versão mais recente -->
 				<executions>
 					<execution>
 						<goals>
